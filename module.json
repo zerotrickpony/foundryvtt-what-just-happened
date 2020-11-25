@@ -1,0 +1,24 @@
+
+{
+	"name": "what-just-happened",
+	"title": "What Just Happened",
+	"description": "This module turns on smooth scrolling in the chat log, and highlights recent batches of chat events in red for 3 seconds, so that it's more clear what just happened. This is useful for visually following the results of macros that drop multiple messages into the log.",
+	"author": "zerotrickpony",
+	"version": "1.0.0",
+	"minimumCoreVersion": "0.6.5",
+	"compatibleCoreVersion": "0.7.7",
+	"socket": "true",
+	"scripts": [
+		"init.js"
+	],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		}
+	],
+	"manifest": "https://raw.githubusercontent.com/zerotrickpony/foundryvtt-what-just-happened/master/module.json",
+	"url": "https://github.com/zerotrickpony/foundryvtt-what-just-happened",
+	"download": "https://github.com/zerotrickpony/foundryvtt-what-just-happened/releases/download/v1.0.0/what-just-happened.zip"
+}
