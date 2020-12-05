@@ -1,0 +1,25 @@
+{
+  "WhatJustHappened": {
+    "Settings": {
+      "highlightType": {
+        "Name": "Message highlight style",
+        "Hint": "How new messages should be temporarily highlighted.",
+        "Border": "Border only (conflicts with MQOL borders)",
+        "Title": "Title only",
+        "BorderAndTitle": "Border and title"
+      },
+      "borderColor": {
+        "Name": "Message border color (hex)",
+        "Hint": "Customizes the temporary border color of new chat messages."
+      },
+      "titleColor": {
+        "Name": "Message title color (hex)",
+        "Hint": "Customizes the temporary title color of new chat messages."
+      },
+      "highlightDuration": {
+        "Name": "Message highlight duration (s)",
+        "Hint": "The amount of time that new chat messages should be temporarily highlighted, in seconds."
+      }
+    }
+  }
+}
